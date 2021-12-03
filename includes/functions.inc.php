@@ -124,7 +124,7 @@ function loginUser($mysqli, $username, $pwd) {
       }
     }
 
-/* updatetotaldata virker ikke grundet tid, forsøg på løsning startet.
+/* updatetotaldata doesnt work due to time constraints, attempt started -- Getting the math down having to consider 4 variables was tricky and ran out of time
 function updatetotaldata($mysqli)
 {
 // $dbsavedper = performQuery( "SELECT co2_saved_per, water_saved_per, user_id, item_id FROM returned_item INNER JOIN item");
