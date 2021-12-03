@@ -1,0 +1,36 @@
+.navigation {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+  position: fixed;
+  top: 11px;
+  right: 180px;
+  float: right;
+
+}
+
+.navigation a{
+  color: #FFFF;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: .7px;
+  font-family: Akkurat;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+li  {
+  margin-right: 20px;
+}
+
+
+#frm {
+  border: solid grey 1px;
+  width: 25%;
+  border-radius: 2px;
+  margin: 120px auto;
+  background: grey;
+  padding: 50px;
+}
