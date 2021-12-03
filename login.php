@@ -13,6 +13,9 @@ include 'templates/header.php';
         <br>
         <button type="submit" name="submit">Log ind</button>
       </form>
+      <div class="msg">
+      <?php echo nl2br("\nFor testning er der oprettet 2 brugere med \nUsername: test \nPassword: test \nOg \n Username:mik \n Password:da\n \n Der kan oprettes nye brugere, men grundet problemer med at opdatere total_saved så vil 'profil' være tomme på nye kontoer"); ?>
+      </div>
     </div>
     <?php
       if (isset($_GET["error"])) {

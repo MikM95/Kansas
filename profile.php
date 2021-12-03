@@ -17,6 +17,9 @@ $userid = $_SESSION["userid"];
       ?>
       </li>
     </ul>
+    <div class="msg">
+      <?php echo nl2br("*Total antal tøj returneret virker og vil opdatere efter en ny upload til firmaet der passer til profilen der er logget ind \n(bruger 'test' hører til tv2 og bruger 'mik' hører til Lego)*") ?>
+    </div>
 </div>
 
 
