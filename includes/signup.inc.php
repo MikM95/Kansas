@@ -1,8 +1,6 @@
 <?php
 
 if (isset($_POST["submit"])) {
-
-
     $username = $_POST["uid"];
     $pwd = $_POST["pwd"];
     $pwdrepeat = $_POST["pwdrepeat"];
@@ -29,8 +27,6 @@ if (isset($_POST["submit"])) {
     }
 
     createUser($mysqli, $username, $pwd, $compname);
-
-
 }
 else {
   header("location: ../signup.php");

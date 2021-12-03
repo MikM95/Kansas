@@ -23,9 +23,6 @@ if (isset($_POST["submit"])) {
        header("location: ../data-upload.php?error=emptyinput");
       exit();
     }
-
-
-
 }
 else {
   header("location: ../signup.php");

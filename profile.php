@@ -5,10 +5,6 @@ include('templates/header.php');
 $userid = $_SESSION["userid"];
 ?>
 
-
-
-
-
 <div class="profile">
   <h2>Overblik over bæredygtighedstallene</h2>
     <ul class="displaytotaldata">
@@ -18,12 +14,9 @@ $userid = $_SESSION["userid"];
       </li>
       <li><?php
         displaytotalreturned($mysqli, $userid);
-      
       ?>
       </li>
     </ul>
-
-
 </div>
 
 

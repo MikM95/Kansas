@@ -37,7 +37,6 @@ include('includes/functions.inc.php');
           echo "<p> Du er oprettet!</p>";
         }
       }
-
      ?>
   </section>
 </div>
